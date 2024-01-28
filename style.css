@@ -334,6 +334,8 @@ body {
 
 
 
+
+
 /*abouuuut*/
 .about-section {
   background-color:rgb(168 193 219 / 85%);
@@ -492,6 +494,23 @@ margin-bottom: 20px;
 }
 }
 
+
+
+.scrolltotop {
+  position: fixed;
+  display: none;
+  bottom: 20px;
+  right: 20px;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  background-color: rgba(111, 111, 111, 0.19);
+  text-align: center;
+  color: #FFF;
+  text-decoration: none;
+  z-index: 3;
+  font-size: 18px;
+}
 
 
 
