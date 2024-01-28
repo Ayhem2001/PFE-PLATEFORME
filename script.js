@@ -13,6 +13,7 @@ const openModal = () => {
 const closeModal = () => {
   modal.classList.remove("is-open");
   body.style.overflow = "initial";
+  container.style.height = "";
 };
 
 window.addEventListener("scroll", () => {
